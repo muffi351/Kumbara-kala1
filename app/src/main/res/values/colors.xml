@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Main Clay Theme -->
+    <color name="primary">#A0522D</color>
+    <color name="clay">#D2A679</color>
+    <color name="light_clay">#E8C9A0</color>
+    <color name="cream">#F5E6D3</color>
+
+    <!-- WhatsApp -->
+    <color name="whatsapp">#25D366</color>
+
+    <!-- Text -->
+    <color name="white">#FFFFFF</color>
+    <color name="darkText">#4E342E</color>
+
+    <!-- Card -->
+    <color name="card_bg">#FFF8F0</color>
+
+</resources>

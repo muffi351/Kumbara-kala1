@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowSplashScreenBackground">#D2A679</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/app_logo</item>
+
+    </style>
+
+    <style name="Theme.MyApplication.Main" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">#D2A679</item>
+    </style>
+
+</resources>

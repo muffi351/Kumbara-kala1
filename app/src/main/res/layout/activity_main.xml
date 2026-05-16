@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@color/cream"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- App Title -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kumbara-Kala"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkText"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reviving Clay Heritage"
+        android:textSize="16sp"
+        android:textColor="@color/darkText"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Upload Button -->
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:text="Upload Pottery Image"
+        android:backgroundTint="@color/clay"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Image -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/image_bg"/>
+
+    <!-- Spinner -->
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:popupBackground="@android:color/white"
+        android:spinnerMode="dropdown"
+         />
+    <!-- Generate Button -->
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:text="Generate Benefit Card"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Result -->
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:text="Traditional clay benefits will appear here"
+        android:textSize="16sp"
+        android:textColor="@color/darkText"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Name -->
+
+    <EditText
+        android:id="@+id/etName"
+        android:hint="Artisan Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textColorHint="#6D4C41"
+        android:backgroundTint="#8B5E3C"
+        android:layout_marginTop="12dp"/>
+
+
+    <!-- Phone -->
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textColorHint="#555555"
+        android:backgroundTint="#8B5E3C"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Share -->
+
+    <Button
+        android:id="@+id/btnShare"
+        android:text="Share on WhatsApp"
+        android:backgroundTint="@color/whatsapp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
